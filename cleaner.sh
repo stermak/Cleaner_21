@@ -5,7 +5,7 @@
 #banner
 echo -e    "         █▀▀ █▀▀ █░░ █▀▀ ▄▀█ █▄░█ "
 echo -e    "         █▄▄ █▄▄ █▄▄ ██▄ █▀█ █░▀█ "
-echo -en   "         By: \033[33mstermak\033[0m [annelies] "
+echo -en   "         By: \033[33mstermak\033[0m [annelies]\n"
 
 
 sleep 2
