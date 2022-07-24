@@ -2,11 +2,13 @@
 #Author Alex ERMAK
 #21login annelies
 
-echo -en "\n                   By: "
-echo -e "\033[33m         stermak\033[0m [annelies]\n"
-echo -e "\n	       report any issues to me in:"
-echo -e "		   GitHub   ~> \033[4;1;34mstermak\033[0m"
-echo -e "	   	   42 Slack ~> \033[4;1;34mannelies\033[0m\n"
+#banner
+echo -e    "         █▀▀ █▀▀ █░░ █▀▀ ▄▀█ █▄░█ "
+echo -e    "         █▄▄ █▄▄ █▄▄ ██▄ █▀█ █░▀█ "
+echo -en   "         By: \033[33mstermak\033[0m [annelies] "
+echo -e    "	     Report any issues to me in:"
+echo -e    "	     GitHub   ~> \033[4;1;34mstermak\033[0m"
+echo -e    "	     21 Slack ~> \033[4;1;34mannelies\033[0m\n"
 sleep 2
 
 #update
