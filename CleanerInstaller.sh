@@ -21,7 +21,7 @@ if grep "alias cclean='bash ~/cleaner.sh'" <"$shell_f" &>/dev/null && ls "$HOME"
 	sleep 0.5
 	echo -e "\033[33m\n -- cclean Already installed --\n\033[0m"
 	sleep 0.5
-	echo -e "\033[36m -- Please, run this command now : [\033[33m source $shell_f\033[0m\033[36m ] Then run [\033[33m cclean \033[0m\033[36m]--\n\033[0m"
+	echo -e "\033[36m -- Please, run this command now : [\033[33m cclean \033[0m\033[36m]--\n\033[0m"
 	sleep 0.5
 	echo -e "\033[36m -- For updates, run [\033[33m cclean update \033[0m\033[36m] --\n\033[0m"
 	exit 0
