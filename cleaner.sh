@@ -43,11 +43,11 @@ echo -e "\033[33m\n -- Available Storage Before Cleaning : || $Storage || --\033
 
 echo -e "\033[31m\n -- Cleaning ...\n\033[0m "
 
-#42 Caches
-/bin/rm -rf "$HOME"/Library/*.21* &>/dev/null
-/bin/rm -rf "$HOME"/*.21* &>/dev/null
+#21 Caches
+/bin/rm -rf "$HOME"/Library/*.42* &>/dev/null
+/bin/rm -rf "$HOME"/*.42* &>/dev/null
 /bin/rm -rf "$HOME"/.zcompdump* &>/dev/null
-/bin/rm -rf "$HOME"/.cocoapods.21_cache_bak* &>/dev/null
+/bin/rm -rf "$HOME"/.cocoapods.42_cache_bak* &>/dev/null
 
 #Trash
 /bin/rm -rf "$HOME"/.Trash/* &>/dev/null
@@ -56,10 +56,11 @@ echo -e "\033[31m\n -- Cleaning ...\n\033[0m "
 #giving access rights on Homebrew caches, so the script can delete them
 /bin/chmod -R 777 "$HOME"/Library/Caches/Homebrew &>/dev/null
 /bin/rm -rf "$HOME"/Library/Caches/* &>/dev/null
+/bin/rm -rf "$HOME"/Library/42_cache &>/dev/null
 /bin/rm -rf "$HOME"/Library/Application\ Support/Caches/* &>/dev/null
 
 #Slack, VSCode, Discord and Chrome Caches
-/bin/rm -rf "$HOME"/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/* &>/dev/null
+/bin/rm -rf "$HOME"/Library/Application\ Support/Slack &>/dev/null
 /bin/rm -rf "$HOME"/Library/Application\ Support/Code/User/workspaceStorage/* &>/dev/null
 /bin/rm -rf "$HOME"/Library/Application\ Support/discord/Cache/* &>/dev/null
 /bin/rm -rf "$HOME"/Library/Application\ Support/discord/Code\ Cache/js* &>/dev/null
